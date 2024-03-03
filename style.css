@@ -1,0 +1,225 @@
+body{
+    background-color: #FFD0EC !important;
+    text-align: center;
+    
+}
+.title{
+    background-image: radial-gradient(#1F2544,#81689D,#FFD0EC);
+    text-align: center;
+    height: 80vh;
+    width: 100vw;
+    border-radius: 90px;
+    margin-top: -20vh;
+    transition: 2s;
+   
+
+}
+.titleimg{
+    height: 200px;
+    transition: 0.5s;
+
+}
+.title-img{
+    display: block;
+    position: absolute;
+    top:200px;
+    right: 200px;
+    z-index: 0;
+}
+.title-text{
+    padding-top: 40vh;
+    margin: auto;
+    z-index: 1;
+}
+.title-head{
+    color: #FFD0EC;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 3rem;
+}
+.title-subhead{
+    color: #FFD0EC;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 1rem;
+
+}
+span{
+    text-decoration: underline;
+}
+.introimg{
+    border-radius: 50%;
+    height: 200px;
+    margin: 25px;
+    float: left;
+    transition: 0.5s;
+
+}
+.introtext{
+    margin: auto;
+    color: #FFD0EC;
+    font-family: 'Quicksand',sans-serif;
+    width: 70%;
+    font-size: 1.25rem;
+
+}
+.introhead{
+    font-family: 'Quicksand',sans-serif;
+    color: #1F2544;
+    margin:auto;
+    padding-bottom: 10px;
+
+}
+.introduction{
+    margin-top: 5vh !important;
+    display: flex;
+    background-image: linear-gradient(to top,#1F2544,#81689D);
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 5vh;
+    padding: 45px;
+    transition: 2s;
+    transition-timing-function: linear;
+
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+.col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+.hobby{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.rowhead{
+    font-family: 'Quicksand',sans-serif;
+    color: #1F2544;
+    margin:auto;
+    padding: 30px;
+    text-align: center;
+    font-size: 3rem;
+}
+.col-lg-4{
+    color: #474F7A !important;
+    font-family: 'Quicksand',sans-serif;
+}
+.skills{
+    display: flex;
+    
+    justify-content: center;
+    
+    
+}
+ul{
+   color: #FFD0EC;
+   background-image: linear-gradient(to right,#474F7A,#81689D);
+   border-radius: 20px;
+   padding: 25px;
+   width: 30%;
+    text-align: center;
+}
+li{
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.container-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    font-family: 'Quicksand', sans-serif;
+    color: #1F2544;
+    text-shadow: 0 0 2px #474F7A;
+    
+
+}
+.footer{
+    width: 100vw;
+    background-image: conic-gradient(#1F2544,#474F7A,#81689D);
+}
+.foot{
+    height: 40px;
+    width: 40px;
+    transition: 0.5s;
+}
+.foot:hover{
+    width: 50px;
+    height: 50px;
+}
+.introimg:hover{
+    border-radius: 20px;
+}
+.hobby:hover{ border-radius: 20px;}
+.titleimg:hover{ 
+    height: 250px;
+}
+.about{
+    margin-top: 5vh !important;
+    display: flex;
+    background-image: linear-gradient(to bottom,#1F2544,#81689D);
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 5vh;
+    padding: 45px;
+    color: #FFD0EC;
+    font-family: 'Quicksand', sans-serif;
+}
+.horizontal{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    border: dotted #474F7A 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.introduction{
+    opacity:0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+
+}
+
+.title{
+    opacity:0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+  100%{
+    opacity:1;
+    transform:translateY(0px);
+  }
+}
