@@ -3,13 +3,37 @@ body{
     text-align: center;
     
 }
+.navbtn{
+    display: flex !important;
+    justify-content: space-around;
+    
+}
+.Navigation:hover{
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+.Navigation{
+    display: flex !important;
+    color: black ;
+    z-index: 20 !important;
+    font-family: 'Quicksand' sans-serif;
+    font-size: 1.15rem;
+    transition: 0.5s;
+}
+.skills-list{
+    transition: 0.5s;
+}
+.skills-list:hover{
+    font-size: 1.15rem;
+
+}
 .title{
     background-image: radial-gradient(#1F2544,#81689D,#FFD0EC);
     text-align: center;
     height: 80vh;
     width: 100vw;
-    border-radius: 90px;
-    margin-top: -20vh;
+    border-radius: 0px 0px 90px 90px;
+    margin-top: -22vh;
     transition: 2s;
    
 
