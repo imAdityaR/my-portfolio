@@ -11,6 +11,14 @@
 </head>
 <body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+
+<div class="navbtn">
+<a class="Navigation" onClick="document.getElementById('intro').scrollIntoView();">Home</a> 
+<a class="Navigation"  onClick="document.getElementById('skills').scrollIntoView();" >Skills</a>
+<a class="Navigation" onClick="document.getElementById('interests').scrollIntoView();">Interests</a> 
+<a class="Navigation"  onClick="document.getElementById('about').scrollIntoView();">About</a>
+<a class="Navigation"  onClick="document.getElementById('footer').scrollIntoView();" >Contact Me</a>
+</div>
 <div class="title">
     <div class="title-text">
         <h1 class="title-head">I'm Aditya</h1>
@@ -20,7 +28,7 @@
         <img src="./—Pngtree—black and white floating monochronic_6294400.png" alt="" class="titleimg">
     </div>
 </div>
-<div class="intro">
+<div class="intro" id="intro">
 <div class="introduction">
 <div class="intro-img">
     <img src="./0R7A0438.JPG" alt="me" class="introimg">
@@ -32,19 +40,18 @@
 </div>
 </div>
 </div>
-<hr class="horizontal">
 <h2 class="rowhead"> My Skills</h2>
-<div class="skills">
-<ul>
-    <li>C Programming</li>
-    <li>Basic Python</li>
-    <li>LaTeX</li>
-    <li>HTML & CSS</li>
-    <li>Bootstrap Framework</li>
+<div class="skills" id="skills">
+<ul >
+    <li class="skills-list">C Programming</li>
+    <li class="skills-list">Basic Python</li>
+    <li class="skills-list">LaTeX</li>
+    <li class="skills-list">HTML & CSS</li>
+    <li class="skills-list">Javascript</li>
+    <li class="skills-list">Bootstrap Framework</li>
 </ul>
 </div>
-<hr class="horizontal">
-<div class="row">
+<div class="row" id="interests">
     <H2 class="rowhead">My Interests</H2>
     <div class="col-lg-4">
         <img src="./avento.gif" alt="" class="hobby">
@@ -82,15 +89,15 @@
       <p>Before you ask which genre,I love music not a genre,no ifs no buts😌🎶❤️ </p>
     </div><!-- /.col-lg-4 -->
   </div>
-  <hr class="horizontal">
+
 </div>
     <h2 class="rowhead">About</h2>
-<div class="about">
+<div class="about" id="about">
     <p>Meet Aditya, a budding talent from NIT Patna's CSE branch, currently navigating his second semester. With a fervent curiosity for web development, Aditya immerses himself in the intricacies of coding, blending creativity and precision. Balancing academic rigor with a love for cricket and music, he embodies versatility. Aditya persists, drawing strength from challenges. With each keystroke, he forges a path toward mastery, eager to leave his mark on the digital landscape. Aditya's journey is not just about learning, but also about the relentless pursuit of excellence</p>
 </div>
-<hr class="horizontal">
 
-<div class="footer">
+
+<div class="footer"  id="footer">
     <div class="container-2">
         <h3>Let's Connect</h3>
     <a href="https://www.linkedin.com/in/aditya-ranjan-b9a562280/" class="link"><img src="./linkedin.png" alt="LinkedIn" class="foot"></a>
@@ -99,31 +106,6 @@
     <a href="https://wa.me/qr/NIUC6PAZUUBQN1" class="link" ><img src="./whatsapp.png" alt="Whatsapp" class="foot"></a>
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
